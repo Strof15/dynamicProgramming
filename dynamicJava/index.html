@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<title>Gombok mozgatása</title>
+<style>
+  #pirosDiv, #kekDiv {
+    padding: 10px;
+    margin: 10px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+  #pirosDiv {
+    background-color: red;
+  }
+  #kekDiv {
+    background-color: blue;
+  }
+  button {
+    margin: 5px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+<div id="pirosDiv"></div>
+<div id="kekDiv"></div>
+<button onclick="generateButton()">Gomb hozzáadása</button>
+
+<script src="script.js"></script>
+</body>
+</html>
